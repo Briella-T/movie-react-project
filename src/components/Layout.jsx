@@ -16,7 +16,7 @@ export default function Layout() {
           <FontAwesomeIcon icon="fa-solid fa-bars" />
           </div>
         <div className="font-sans text-3xl font-black uppercase tracking-tight bg-[#ffd7ba] p-6 rounded-lg mx-4">
-          Fireside Facts
+          Attic Cinema
         </div>
         <div className="font-sans text-3xl font-black uppercase tracking-tight bg-[#ffd7ba] p-6 rounded-lg">
           <FontAwesomeIcon icon="fa-solid fa-film" />
@@ -27,7 +27,7 @@ export default function Layout() {
         
         <nav className="w-52 bg-[#9b9b7a] p-4 shadow-md shrink-0 overflow-y-auto">
             <a href="/" className="font-sans text-3xl font-black uppercase tracking-tight text-white hover:text-gray-200 block py-6">
-              Home
+              Search
             </a>
             <a href="/about" className="ffont-sans text-3xl font-black uppercase tracking-tight text-white hover:text-gray-200 block py-6">
               About
