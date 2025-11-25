@@ -49,8 +49,8 @@ export default function Search() {
     };
     
     const handleResultClick = (imdbId, title) => {
-        console.log(`CLICKED: Ready to navigate to details for Title: ${title}, ID: ${imdbId}`);
-        alert(`Navigating to details for ${title} (ID: ${imdbId})`);
+        console.log("Poster Clicked! Ready to fetch details for IMDB ID:", imdbId);
+        navigate(`/details/${imdbId}`);
 
     };
 

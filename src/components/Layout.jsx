@@ -29,9 +29,6 @@ export default function Layout() {
             <a href="/" className="font-sans text-3xl font-black uppercase tracking-tight text-white hover:text-gray-200 block py-6">
               Search
             </a>
-            <a href="/about" className="ffont-sans text-3xl font-black uppercase tracking-tight text-white hover:text-gray-200 block py-6">
-              About
-            </a>
             <a href="/gallery" className="font-sans text-3xl font-black uppercase tracking-tight text-white hover:text-gray-200 block py-6">
               Gallery
             </a>
