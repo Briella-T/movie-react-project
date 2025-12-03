@@ -48,7 +48,6 @@ export default function GalleryPage() {
     }, []);
 
     const handlePosterClick = (imdbId) => {
-        console.log("Poster Clicked! Ready to fetch details for IMDB ID:", imdbId);
         navigate(`/details/${imdbId}`);
     };
 
